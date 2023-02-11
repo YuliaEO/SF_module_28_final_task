@@ -2,9 +2,9 @@
 driverPathChrome = 'chromedriver.exe'
 baseUrl = 'https://b2c.passport.rt.ru'
 
-registerFormKeysFirstName = ['A', 'Ab', '!@#$', 'aбвгдеёжзиклмнопрстуфхчшщъыьэюя', 'Екатерина']
-registerFormKeysLastName = ['A', 'Ab', '!@#$', 'aбвгдеёжзиклмнопрстуфхчшщъыьэюя', 'Валерьевна']
-registerFormKeysAddress = ['A', '!@#$', 'aбвгдеёжзиклмнопрстуфхчшщъыьэюя', '9099900015', 'testing@mail.ru']
+registerFormKeysFirstName = ['A', 'Ab', '!@#$', 'aбвгдеёжзиклмнопрстуфхчшщъыьэюя', 'Юлия']
+registerFormKeysLastName = ['A', 'Ab', '!@#$', 'aбвгдеёжзиклмнопрстуфхчшщъыьэюя', 'Эдуардовна']
+registerFormKeysAddress = ['A', '!@#$', 'aбвгдеёжзиклмнопрстуфхчшщъыьэюя', '9099900015', 'testtest@mail.ru']
 registerFormPassword = ['а', 'аааааааа', 'abcdefgh', 'abcdefgh1', 'Abcdefgh1']
 registerKeysDict = {
     'firstName': registerFormKeysFirstName,
@@ -19,7 +19,7 @@ regErPass = 'Длина пароля должна быть не менее 8 с�
 tabButtonsId = ['t-btn-tab-phone', 't-btn-tab-mail', 't-btn-tab-login', 't-btn-tab-ls']
 placeholderInputsValue = ['Мобильный телефон', 'Электронная почта', 'Логин', 'Лицевой счёт']
 tabTitles = ['Телефон', 'Почта', 'Логин', 'Лицевой счёт']
-sendedKeys = ['79684752202', 'testing@test.ru', '848624625698', 'someText']
+sendedKeys = ['79953766174', 'testtest@mail.ru', '89765662190', 'someText']
 placeValue = ['Мобильный телефон', 'Электронная почта', 'Лицевой счёт', 'Логин']
 tabTitlesAuth = ['Телефон', 'Почта', 'Лицевой счёт', 'Логин']
 activeTab = 'rt-tab--active'
